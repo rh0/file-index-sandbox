@@ -128,6 +128,9 @@ function apachesolr_views_views_data() {
         'handler' => 'apachesolr_views_handler_field',
         'click sortable' => TRUE,
       ),
+      'sort' => array(
+        'handler' => 'apachesolr_views_handler_sort',
+      ),
     );
   }
 
